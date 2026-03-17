@@ -1,0 +1,5 @@
+flask
+tensorflow==2.10
+numpy==1.23.5
+pillow
+scipy

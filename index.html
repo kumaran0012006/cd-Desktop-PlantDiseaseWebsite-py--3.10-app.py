@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Plant Disease Detector</title>
+</head>
+
+<body>
+
+<h1>Plant Disease Detection System</h1>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+
+<input type="file" name="file">
+
+<br><br>
+
+<input type="submit" value="Predict Disease">
+
+</form>
+
+<h2>{{ prediction }}</h2>
+
+</body>
+
+</html>
